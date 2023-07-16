@@ -1,0 +1,119 @@
+
+       
+*{
+    padding:0px;;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.container{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(300deg,#feca73,#feca74,#fec68e,#fec2b4,#febfcc,#edc7d2,#dbcfd7,#98faf8,#88f9f1,#9cf7e7,#bdf4db,#c9f3d4,#e6f0c9,#fff0cb,#fff8e7,#fffbf1,whitesmoke,whitesmoke,whitesmoke,white);
+    background-size: 300% 300%;
+    animation: color 12s alternate infinite;
+    
+}
+@keyframes color {
+  0%{
+    background-position: 0 10%;
+  } 
+  11%{
+    background-position: 10% 20%;
+  }  
+  21%{
+    background-position: 20% 30%;
+  }
+  31%{
+    background-position: 30% 40%;
+  }
+  41%{
+    background-position: 40% 50%;
+  }
+  51%{
+    background-position: 50% 60%;
+  }
+  61%{
+    background-position: 60% 70%;
+  }
+  71%{
+    background-position: 70% 80%;
+  }
+  81%{
+    background-position: 80% 90%;
+  }
+  91%{
+    background-position: 90% 100%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+  
+
+ 
+ body{
+ width:100%;
+ height:100%;
+ font-family:'Roboto';
+ background: whitesmoke;
+ border-style: double;
+ border-color: white;
+ border-width: 30px;
+ }
+ 
+.text{
+  position:absolute;
+  left:160px;
+  color:#fbd5ca;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.loader-text {
+   font-family: "Sempione Grotesk Bold", sans-serif; 
+   margin: 0 0 .5em;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-style: bold;
+   font-size: 4rem;
+   line-height: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   word-spacing: 5px;
+   
+   color: #3a32329e; 
+ }
+.loading{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-family: 'Sempione Grotesk Bold';
+   font-size: 40%;
+}
+.percent{
+  color: #3a32329e;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align:center;
+  position:relative;
+  top:3px;
+  left:10px;
+  margin-bottom: 10px;
+  padding: 20;
+}
+
+.text1{
+  color:#3a32329e;
+  font-size: 100px;
+  font-weight: 400;
+  text-align:center;
+  margin-bottom: 15px;
+  font-display: static;
+  
+}
+
+
